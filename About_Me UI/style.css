@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.header{
+    background-image: url("man_on_hill.jpg");
+    width: 100%;
+    height: 900px;
+    background-size: 100% 800px;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.sbs_logo{
+    color: crimson;
+    font-size: 28px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+} 
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    color: crimson;
+    transition: 0.3s;
+}
+
+.intro{
+    margin: 260px 540px;
+    padding: 30px;
+    color: white;
+}
+
+.icons{
+    margin: 10px;
+    padding: 5px 45px;
+}
+
+.icons img{
+    padding: 0 15px;
+}
+
+#mid{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    width: 100%;
+    height: 850px;
+}
+
+.head{
+    flex-basis: 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.content{
+    flex-basis: 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+#dpbox{
+    height: 600px;
+    width: 500px;
+    /* border-left: 25px solid crimson; */
+    border-top: 25px solid crimson;
+    border-bottom: 25px solid crimson;
+    margin: 100px auto;
+    background-image: url("Dp.jpg");
+    background-size: 100% 100%;
+}
+
+#infobox{
+    height: 600px;
+    width: 400px;
+    margin: 100px 40px;
+    padding-left: 20px;
+}
+
+#info_grid{
+    box-sizing: border-box;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: auto auto;
+}
+
+.item{
+    /* border: 1px solid red; */
+    font-size: 20px;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.button{
+    margin-top: 40px;
+    display: inline-block;
+    border-radius: 30px;
+    border: 2px solid red;
+    background-color: crimson;
+    padding: 10px;
+}
+
+#bottom{
+    width: 100%;
+    height: 1200px;
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#box3{
+    box-sizing: border-box;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 100%;
+    height: 1000px;
+    display: grid; 
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 5px;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: #80808045;
+}
