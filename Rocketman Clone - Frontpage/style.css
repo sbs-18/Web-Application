@@ -1,0 +1,166 @@
+
+        .sidediv{
+            display: inline-block;
+            /* display: inline; */
+            /* border: 10px solid black; */
+            width: 320px;
+            height: 280px;
+        }
+
+        .li {
+            float: right;
+            list-style-type: none;
+        }
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 20px 20px;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 20px;
+        }
+        .rocketlaunch{
+            height: 900px; 
+            width: 100%;
+            background-size: cover;
+            background-color: black;
+            background-image: url("rocket_launch.jpg");
+        }
+        #box1{
+            display: block;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            text-align: center;
+            /* opacity:0.6; */
+            color: white;
+            /* padding: 200px 300px 0 0; */
+        }
+        div h1{
+            padding: 15% 0 0 20% ;
+            max-width: 30%;
+            font-size: 50px;
+            text-align: left;
+        }
+        .text_box{
+            background-color: white;
+            color : black;
+            width: 120px;
+            height: 30px;
+            margin-left: 300px;
+            padding-top: 5px;
+            border: 1px solid white;
+        }
+
+        /* css for mid section */
+        .container{
+            display: inline-block;
+            height: 600px;
+            width: 550px;
+            background-size: contain ;
+            margin: 20px;
+            border: 1px solid rgb(222, 213, 213);
+            background-repeat: no-repeat;
+        }
+        
+        /* csss for 1st picturebox */
+        div.relative1 {
+            margin-top: 100px;
+            margin-left: 30px;
+            position: relative;
+            width: 770px;
+            height: 550px;
+            background-image: url("r1.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+          } 
+          div.absolute1 {
+            position: absolute;
+            top: 350px;
+            right: -300px;
+            width: 450px;
+            height: 270px;
+            background-color: black;
+            color: white;
+          }
+
+          /* css for 2nd picturebox */
+          div.relative2 {
+            margin-top: 100px;
+            margin-left: 400px;
+            position: relative;
+            width: 770px;
+            height: 500px;
+            background-image: url("rocket2.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+          } 
+          div.absolute2 {
+            position: absolute;
+            top: 350px;
+            left: -300px;
+            width: 450px;
+            height: 270px;
+            background-color: black;
+            color: white;
+          }
+
+          /* css for 3rd picturebox */
+          div.relative3 {
+            margin-top: 100px;
+            margin-left: 30px;
+            position: relative;
+            width: 770px;
+            height: 550px;
+            background-image: url("rocket_launch.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+          } 
+          div.absolute3 {
+            position: absolute;
+            top: 350px;
+            right: -300px;
+            width: 450px;
+            height: 300px;
+            background-color: black;
+            color: white;
+          }
+        /* above footer */
+        .purple_container{
+            background-color: blueviolet;
+            height: 200px;
+            padding: 10px 100px 40px;
+            color: white;
+        }
+
+
+        /* css for footer */
+        #footer_box1{
+            color: white;
+            padding-left: 20px;
+            text-align: center;
+            font-size: large;
+            padding-top: 20px; 
+        }
+        #footer_box2{
+            color: white;
+            padding-left: 20px;
+            text-align: center;
+        }
+        #footer_box3{
+            color: white;
+            padding-left: 20px;
+            text-align: center;
+        }
+        #footer_box4{
+            color: white;
+            padding-left: 20px;
+            text-align: center;
+            font-size: 10px;
+        }
+
+        .footer_list{
+                margin: 50px 0;
+        /* TODO:do the margin shit */
+            }
