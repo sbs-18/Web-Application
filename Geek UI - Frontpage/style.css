@@ -1,0 +1,19 @@
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+nav a{
+    padding-left: 20px;
+}
+
+.senten{
+    margin-left: 120px;
+    margin-top: 100px;
+    margin-bottom :10px;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.container{
+    margin-bottom: 50px;
+}
